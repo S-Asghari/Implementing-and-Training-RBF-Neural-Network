@@ -49,7 +49,6 @@ def plot(data, Y, newY):
             # print("m is greater than 5.")
             plt.scatter(data[i][0], data[i][1], c='red', marker='x', s=15)
 
-
 # -----------------------------------------------------------
 
 np.random.shuffle(data)
@@ -89,7 +88,6 @@ def find_best_m(m):
     # print(a2)
 
     return a, a2, Vx, Vy, testY, test_newY
-
 
 best_val = 0
 best_m = 0
@@ -173,7 +171,6 @@ def plot_randomData(randomData):
             plt.scatter(randomData[i][0], randomData[i][1], c='olive', marker='x', s=15)
 
 # -----------------------------------------------------------
-
 
 randomData = boundaries()
 plot_randomData(randomData)
