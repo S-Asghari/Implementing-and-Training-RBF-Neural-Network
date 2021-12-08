@@ -12,7 +12,7 @@ a = 0.3     # Percentage of test data to total data
 
 reader = csv.reader(open("D:/dataset/2clstrain1200.csv"))
 data = [raw for raw in reader]
-data = np.delete(data, slice(1, len(data), 2), 0)   # Removing blank lines in data set(for csv file 1 and 2)
+data = np.delete(data, slice(1, len(data), 2), 0)   # Removing blank lines in data set(for 2clstrain1200.csv & 4clstrain1200.csv)
 for i in range(len(data)):
     data[i] = [float(j) for j in data[i]]
 
