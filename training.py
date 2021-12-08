@@ -2,7 +2,7 @@ import math
 import copy
 import numpy as np
 
-r = 1
+r = 0.1
 mm = 2
 c = 2
 
